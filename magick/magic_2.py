@@ -1,0 +1,6 @@
+input("Think of any Number")
+input("Multiply the Number by 2")
+input("Add 4 to the Answer")
+input("Multiply the Answer by 5")
+ans = int(input("Enter the Final Answer: "))
+print(f"The Number you thought is {(ans - 20)//10}")

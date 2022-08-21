@@ -1,0 +1,8 @@
+input("Think of 2 numbers between 1-9")
+input("Multiply the first number by 2")
+input("Add 5 to the answer")
+input("Multiply the answer by 5")
+input("Add the second number to the answer")
+ans = int(input("Enter the final Total: "))
+num = str(ans - 25)
+print(f"You thought of:\nFirst Number: {num[0]}\nSecond Number: {num[1]}")
